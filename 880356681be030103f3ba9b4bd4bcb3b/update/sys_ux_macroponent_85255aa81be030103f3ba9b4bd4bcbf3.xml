@@ -3,7 +3,662 @@
         <associated_types/>
         <category>page</category>
         <component_dependencies/>
-        <composition>[ ]</composition>
+        <composition>[ {
+  "elementId" : "container_4",
+  "elementLabel" : "Container 4",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "stylized_text_3",
+      "elementLabel" : "Stylized text 3",
+      "propertyValues" : {
+        "text" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "Welcome to the CMS Portal",
+            "comment" : ""
+          }
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "h1"
+        },
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "h1 { \r\n    font-size: 100px;\r\n}"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Main",
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "font-size" : "32px"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"row","align-items":"center","justify-content":"space-around"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr","grid-template-areas":"\"main\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "5832fd4d53c31010e6bcddeeff7b12db",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%"
+  }
+}, {
+  "elementId" : "container_1",
+  "elementLabel" : "Container 1",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "image_1",
+      "elementLabel" : "Image 1",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://img.icons8.com/pastel-glyph/344/scales--v4.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_1",
+      "elementLabel" : "Rich text 1",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Know Your Responsibility&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "text-align" : "center"
+      }
+    }, {
+      "elementId" : "image_2",
+      "elementLabel" : "Image 2",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://iconape.com/wp-content/png_logo_vector/stack-overflow.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_2",
+      "elementLabel" : "Rich text 2",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Know Your Process&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "text-align" : "center"
+      }
+    }, {
+      "elementId" : "image_3",
+      "elementLabel" : "Image 3",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://iconape.com/wp-content/png_logo_vector/wrench.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_3",
+      "elementLabel" : "Rich text 3",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Observe &amp;amp; Fix Your Process&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "text-align" : "center"
+      }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "4105f10153071010e6bcddeeff7b121e",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "display" : "flex",
+    "padding-left" : "275px"
+  }
+}, {
+  "elementId" : "container_2",
+  "elementLabel" : "Container 2",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Main",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "image_4",
+      "elementLabel" : "Image 4",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://iconape.com/wp-content/png_logo_vector/binoculars.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_4",
+      "elementLabel" : "Rich text 4",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Test &amp;amp; Assess Your Process&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "text-align" : "center"
+      }
+    }, {
+      "elementId" : "image_5",
+      "elementLabel" : "Image 5",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://iconape.com/wp-content/png_logo_vector/lock-4.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_5",
+      "elementLabel" : "Rich text 5",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Oversight &amp;amp; Accountability&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 2",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "text-align" : "center"
+      }
+    }, {
+      "elementId" : "image_6",
+      "elementLabel" : "Image 6",
+      "propertyValues" : {
+        "alt" : {
+          "type" : "JSON_LITERAL",
+          "value" : ""
+        },
+        "src" : {
+          "type" : "JSON_LITERAL",
+          "value" : "https://cdn0.iconfinder.com/data/icons/hippicons-technology/64/cubes-512.png"
+        },
+        "fit" : {
+          "type" : "JSON_LITERAL",
+          "value" : "cover"
+        },
+        "position" : {
+          "type" : "JSON_LITERAL",
+          "value" : "center center"
+        },
+        "height" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "15fe506403f8a98575b6df59008ea8f1",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "rich_text_6",
+      "elementLabel" : "Rich text 6",
+      "propertyValues" : {
+        "html" : {
+          "type" : "JSON_LITERAL",
+          "value" : "&lt;p&gt;Know Your Third Parties&lt;/p&gt;"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "2d56f06d55f46bbd4e79b5e624beb940",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"display":"flex","flex-direction":"column","height":"30%","width":"30%"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "4105f10153071010e6bcddeeff7b121e",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "display" : "flex",
+    "padding-left" : "275px"
+  }
+}, {
+  "elementId" : "container_3",
+  "elementLabel" : "Container 3",
+  "propertyValues" : { },
+  "eventMappings" : [ ],
+  "slot" : "Header",
+  "definition" : {
+    "id" : "d356d14b6e293a3020a244b63d278d8f",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : {
+    "composition" : [ {
+      "elementId" : "stylized_text_1",
+      "elementLabel" : "Stylized text 1",
+      "propertyValues" : {
+        "text" : {
+          "type" : "TRANSLATION_LITERAL",
+          "value" : {
+            "message" : "CMS Portal",
+            "comment" : ""
+          }
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "h1"
+        },
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "* { }"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 1",
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    }, {
+      "elementId" : "stylized_text_2",
+      "elementLabel" : "Stylized text 2",
+      "propertyValues" : {
+        "text" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "fullName" ],
+            "category" : "session"
+          }
+        },
+        "tag" : {
+          "type" : "JSON_LITERAL",
+          "value" : "span"
+        },
+        "css" : {
+          "type" : "JSON_LITERAL",
+          "value" : "* { }"
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "4335ba6dca80378f7ba7a67cd6667bec",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : {
+        "display" : "inline-block",
+        "margin-right" : "15px",
+        "color" : "white"
+      }
+    }, {
+      "elementId" : "avatar_1",
+      "elementLabel" : "Avatar 1",
+      "propertyValues" : {
+        "size" : {
+          "type" : "JSON_LITERAL",
+          "value" : "md"
+        },
+        "userName" : {
+          "type" : "CONTEXT_BINDING",
+          "binding" : {
+            "address" : [ "user", "fullName" ],
+            "category" : "session"
+          }
+        },
+        "presence" : {
+          "type" : "JSON_LITERAL",
+          "value" : "available"
+        },
+        "showPresencePattern" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        },
+        "imageSrc" : {
+          "type" : "JSON_LITERAL",
+          "value" : null
+        },
+        "ariaHidden" : {
+          "type" : "JSON_LITERAL",
+          "value" : "true"
+        },
+        "hideTooltip" : {
+          "type" : "JSON_LITERAL",
+          "value" : false
+        }
+      },
+      "eventMappings" : [ ],
+      "slot" : "Column 3",
+      "definition" : {
+        "id" : "211969ddfcc5e7050fcfa6cc019e9c8f",
+        "type" : "MACROPONENT"
+      },
+      "overrides" : null,
+      "isHidden" : {
+        "type" : "JSON_LITERAL",
+        "value" : ""
+      },
+      "isNonDestructive" : false,
+      "styles" : { }
+    } ],
+    "layout" : {
+      "default" : {
+        "children" : null,
+        "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"column","color":"white","padding-left":"10px"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column"}},{"slotName":"Column 3","rules":{"grid-area":"column3"},"styles":{"margin-right":"0px !important","padding-top":"5px","padding-bottom":"5px","padding-right":"10px","text-align":"right","color":"white !important","display":"flex","justify-content":"flex-end","align-items":"center"}}],
+        "root" : null,
+        "rules" : {"grid-template-rows":"auto","grid-template-columns":"1fr 1fr 1fr","grid-template-areas":"\"column1 column2 column3\"","grid-gap":"1rem","height":"100%"},
+        "styles" : null,
+        "templateId" : "4105f10153071010e6bcddeeff7b121e",
+        "type" : "grid"
+      }
+    }
+  },
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "100%",
+    "box-shadow" : "0 5px 4px 0 rgba(0,0,0,.2)"
+  }
+} ]</composition>
         <da_relay_models/>
         <data>[ ]</data>
         <dispatched_events/>
@@ -12,13 +667,23 @@
         <interactions/>
         <interfaces/>
         <internal_event_mappings>{ }</internal_event_mappings>
-        <layout/>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Header","rules":{"grid-area":"header"},"styles":{"display":"flex","flex-direction":"column","background-color":"#414141"}},{"slotName":"Main","rules":{"grid-area":"main"},"styles":{"display":"flex","flex-direction":"column","width":"auto","margin":"auto","align-items":"center","justify-content":"space-around"}},{"slotName":"Footer","rules":{"grid-area":"footer"},"styles":{"display":"flex","flex-direction":"column"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(50px, auto) minmax(400px, auto) minmax(50px, auto)","grid-template-columns":"1fr","grid-template-areas":"\"header\" \"main\" \"footer\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "7ebde90d53c31010e6bcddeeff7b126d",
+    "type" : "grid"
+  }
+}</layout>
         <macroponent_dependencies/>
         <name>Landing</name>
         <props>[ ]</props>
-        <required_translations>[]</required_translations>
+        <required_translations>[{"message":"Welcome to the CMS Portal","comment":""},{"message":"CMS Portal","comment":""}]</required_translations>
         <root_component/>
-        <root_component_config/>
+        <root_component_config>{ }</root_component_config>
         <root_component_definition/>
         <schema_version>1.0.0</schema_version>
         <state_properties>[ ]</state_properties>
@@ -26,13 +691,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2021-06-01 20:11:52</sys_created_on>
         <sys_id>85255aa81be030103f3ba9b4bd4bcbf3</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>23</sys_mod_count>
         <sys_name>Landing</sys_name>
         <sys_package display_value="Mock Up" source="880356681be030103f3ba9b4bd4bcb3b">880356681be030103f3ba9b4bd4bcb3b</sys_package>
         <sys_policy/>
         <sys_scope display_value="Mock Up">880356681be030103f3ba9b4bd4bcb3b</sys_scope>
         <sys_update_name>sys_ux_macroponent_85255aa81be030103f3ba9b4bd4bcbf3</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2021-06-01 20:11:52</sys_updated_on>
+        <sys_updated_on>2021-06-02 03:03:56</sys_updated_on>
     </sys_ux_macroponent>
 </record_update>
