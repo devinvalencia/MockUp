@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ux_macroponent">
+    <sys_ux_macroponent action="INSERT_OR_UPDATE">
+        <associated_types/>
+        <category>page</category>
+        <component_dependencies/>
+        <composition>[ {
+  "elementId" : "image_4",
+  "elementLabel" : "Image 4",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/now-image-placeholder.jpg"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "cover"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "center center"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : "100"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 2",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "auto"
+  }
+}, {
+  "elementId" : "image_5",
+  "elementLabel" : "Image 5",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/now-image-placeholder.jpg"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "cover"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "center center"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : "100"
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 2",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : {
+    "width" : "auto"
+  }
+}, {
+  "elementId" : "image_8",
+  "elementLabel" : "Image 8",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/now-image-placeholder.jpg"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "cover"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "center center"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 1",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "image_7",
+  "elementLabel" : "Image 7",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/now-image-placeholder.jpg"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "cover"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "center center"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 1",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+}, {
+  "elementId" : "image_6",
+  "elementLabel" : "Image 6",
+  "propertyValues" : {
+    "alt" : {
+      "type" : "JSON_LITERAL",
+      "value" : ""
+    },
+    "src" : {
+      "type" : "JSON_LITERAL",
+      "value" : "/now-image-placeholder.jpg"
+    },
+    "fit" : {
+      "type" : "JSON_LITERAL",
+      "value" : "cover"
+    },
+    "position" : {
+      "type" : "JSON_LITERAL",
+      "value" : "center center"
+    },
+    "height" : {
+      "type" : "JSON_LITERAL",
+      "value" : null
+    }
+  },
+  "eventMappings" : [ ],
+  "slot" : "Column 1",
+  "definition" : {
+    "id" : "15fe506403f8a98575b6df59008ea8f1",
+    "type" : "MACROPONENT"
+  },
+  "overrides" : null,
+  "isHidden" : {
+    "type" : "JSON_LITERAL",
+    "value" : ""
+  },
+  "isNonDestructive" : false,
+  "styles" : { }
+} ]</composition>
+        <da_relay_models/>
+        <data>[ ]</data>
+        <dispatched_events/>
+        <extends display_value="Page Template">19be392623033300f4b4c50947bf65ba</extends>
+        <handled_events/>
+        <interactions/>
+        <interfaces/>
+        <internal_event_mappings>{ }</internal_event_mappings>
+        <layout>{
+  "default" : {
+    "children" : null,
+    "items" : [{"slotName":"Column 1","rules":{"grid-area":"column1"},"styles":{"display":"flex","flex-direction":"row","justify-content":"space-between"}},{"slotName":"Column 2","rules":{"grid-area":"column2"},"styles":{"display":"flex","flex-direction":"column","justify-content":"flex-start","align-items":"flex-end"}}],
+    "root" : null,
+    "rules" : {"grid-template-rows":"minmax(400px,auto)","grid-template-columns":"1fr 1fr","grid-template-areas":"\"column1 column2\"","grid-gap":"1rem","height":"100%"},
+    "styles" : null,
+    "templateId" : "8374fc8153831010e6bcddeeff7b1267",
+    "type" : "grid"
+  }
+}</layout>
+        <macroponent_dependencies/>
+        <name>FlexTest</name>
+        <props>[ ]</props>
+        <required_translations>[]</required_translations>
+        <root_component/>
+        <root_component_config>{ }</root_component_config>
+        <root_component_definition/>
+        <schema_version>1.0.0</schema_version>
+        <state_properties>[ ]</state_properties>
+        <sys_class_name>sys_ux_macroponent</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-06-02 14:48:14</sys_created_on>
+        <sys_id>4ea49eb81b2030103f3ba9b4bd4bcb6b</sys_id>
+        <sys_mod_count>11</sys_mod_count>
+        <sys_name>FlexTest</sys_name>
+        <sys_package display_value="Mock Up" source="880356681be030103f3ba9b4bd4bcb3b">880356681be030103f3ba9b4bd4bcb3b</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Mock Up">880356681be030103f3ba9b4bd4bcb3b</sys_scope>
+        <sys_update_name>sys_ux_macroponent_4ea49eb81b2030103f3ba9b4bd4bcb6b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-06-02 15:50:17</sys_updated_on>
+    </sys_ux_macroponent>
+</record_update>
